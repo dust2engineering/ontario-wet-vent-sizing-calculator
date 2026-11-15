@@ -1,0 +1,84 @@
+{
+ "code": "Ontario Building Code 2024 (O. Reg. 163/24), Part 7",
+ "table_7_5_8_1_max_hydraulic_load_to_wet_vent_fu": [
+  {
+   "nps": 1.5,
+   "not_serving_water_closets_fu": 2,
+   "serving_up_to_2_wcs_other_fixtures_fu": null
+  },
+  {
+   "nps": 2,
+   "not_serving_water_closets_fu": 4,
+   "serving_up_to_2_wcs_other_fixtures_fu": 3
+  },
+  {
+   "nps": 3,
+   "not_serving_water_closets_fu": 12,
+   "serving_up_to_2_wcs_other_fixtures_fu": 8
+  },
+  {
+   "nps": 4,
+   "not_serving_water_closets_fu": 36,
+   "serving_up_to_2_wcs_other_fixtures_fu": 14
+  },
+  {
+   "nps": 5,
+   "not_serving_water_closets_fu": null,
+   "serving_up_to_2_wcs_other_fixtures_fu": 18
+  },
+  {
+   "nps": 6,
+   "not_serving_water_closets_fu": null,
+   "serving_up_to_2_wcs_other_fixtures_fu": 23
+  }
+ ],
+ "sizing_rule_7_5_8_1_2": "When sizing a wet vent, the hydraulic load of the most downstream fixture (or symmetrically connected pair of fixtures) is NOT counted.",
+ "wet_vent_length": "7.5.2.1.(1): the length of a wet vent is not limited.",
+ "wet_vent_conditions_7_5_2_1": [
+  "Not more than 2 water closets on the wet vent; 2 water closets connect at the same level (double sanitary T on a stack, double Y on a horizontal pipe).",
+  "Water closets must be downstream of all other fixtures.",
+  "Trap arms and fixture drains connecting to the wet vent: not more than NPS 2 (emergency floor drain excepted).",
+  "Multi-storey wet vents: the total drainage from any storey above the first storey is not more than 4 fixture units.",
+  "Not more than one horizontal offset; offset not more than 1.2 m (pipe NPS 2 or less) or 2.5 m (pipe larger than NPS 2).",
+  "No reduction in size in the wet-vented portion (except upstream of a floor drain)."
+ ],
+ "circuit_venting_7_5_3_1": [
+  "Circuit venting requires: a circuit vent connected; all circuit-vented fixtures on the same floor; no stack connected upstream of the circuit-vented fixtures.",
+  "Fixtures with outlets smaller than NPS 2 must be individually vented or individually circuit vented.",
+  "Relief vent: connected to the branch downstream of the most downstream circuit-vented fixture connection. Exceptions: a drain with a hydraulic load of not more than 6 FU may serve as the relief vent; a combined relief vent may serve 2 branches connected symmetrically, with not more than 8 fixtures between it and each circuit vent.",
+  "Additional circuit vents are required where the cumulative horizontal change of direction between vent connections exceeds 45 degrees, or more than 8 circuit-vented fixtures are connected between vent connections. A drain serving as an additional circuit vent is sized as a wet vent (Table 7.5.8.1) and is not less than NPS 2.",
+  "Minimum circuit-vented branch size: NPS 2 where traps are smaller than NPS 2; NPS 3 where traps are NPS 2 or larger.",
+  "Circuit vent size is set by Table 7.5.8.3 (total fixture units vs developed length) - the grid is not reproduced in this tool.",
+  "Additional circuit vents and relief vents (7.5.7.3.(1)): one NPS smaller than the circuit vent requires, but need not exceed NPS 2; also not smaller than Table 7.5.7.1 for the trap served."
+ ],
+ "table_7_5_7_1_min_vent_by_trap": [
+  {
+   "trap_nps": 1.25,
+   "min_vent_nps": 1.25
+  },
+  {
+   "trap_nps": 1.5,
+   "min_vent_nps": 1.25
+  },
+  {
+   "trap_nps": 2,
+   "min_vent_nps": 1.5
+  },
+  {
+   "trap_nps": 3,
+   "min_vent_nps": 1.5
+  },
+  {
+   "trap_nps": 4,
+   "min_vent_nps": 1.5
+  },
+  {
+   "trap_nps": 5,
+   "min_vent_nps": 2
+  },
+  {
+   "trap_nps": 6,
+   "min_vent_nps": 2
+  }
+ ]
+}
