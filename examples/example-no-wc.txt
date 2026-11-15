@@ -1,0 +1,6 @@
+Lavatories and a shower, no water closets, 12 FU:
+
+$ python3 wet_vent_sizing.py --fu 12 --wcs 0
+
+Effective load for sizing: 12 FU (total 12 FU less 0 FU downstream fixture, per 7.5.8.1.(2))
+Minimum wet vent size: NPS 3 (Table 7.5.8.1 capacity 12 FU, not serving water closets)
